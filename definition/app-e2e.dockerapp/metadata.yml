@@ -1,0 +1,6 @@
+version: 0.1.0
+name: app-e2e
+description: sample description
+maintainers:
+  - name: Anca Iordache
+    email: anca.iordache@docker.com

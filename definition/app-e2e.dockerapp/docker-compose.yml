@@ -1,0 +1,12 @@
+version: "3.6"
+
+services:
+  backend:
+    build: backend
+    image: app-e2e/backend
+  frontend:
+    image: app-e2e/frontend
+    build: frontend
+    ports:
+     - ${ports.frontend}:80
+
